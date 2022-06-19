@@ -18,6 +18,11 @@ Please  Import project in Intellij and build as mvn clean install and run Client
 from command line root project mvn spring-boot:run 
 
 Reources Folder would be having result as output.csv generated after performing operation.. 
+
+![image](https://user-images.githubusercontent.com/16664076/174486124-0fc22b56-0676-4ffa-ae08-ba07058bfcc4.png)
+
+
+
 We have used Spring Batch with Batch Job Configuration with ItemReader
 ItemWriter ,Item Processor and TaskExecutor with Concurrency set to No of Core in system. ( Performance may depends on core in system where it runs)
 Multithreading to run and processed records parallel.
